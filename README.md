@@ -1,1 +1,1 @@
-Documentation od Super Paper Runner Jumper Man
+Documentation of Super Paper Runner Jumper Man

@@ -6,8 +6,8 @@
 
 ---
 
-## 🌐 **Play the Game**
-
+##
+I am trying to host the game but I have no clue what the issue is with it becasue it somehow has big problems with loading the pictures and just spits out 404 errors :(
 
 ---
 

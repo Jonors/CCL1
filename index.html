@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paper Runner Jumper Man 2D</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="icon" href="favicon.png" />
+  </head>
+  <body>
+    <div id="menu" >
+      <div class="menu-item" >
+        <img
+          class="Screen"
+          src="./images/Startscreen.png"
+          alt="Startscreen"
+        />
+      </div>
+    </div>
+    <!-- further HTML elements, that should maybe be displayed above your game. E.g. Healtbar, .... -->
+    <!-- <div id="healthDisplay"></div> -->
+
+    <div id="gameContainer" style="display: none">
+      <!-- further HTML elements, that should be behind your game. e.g. Background image, .... -->
+      <div id="background">
+        <canvas id="canvas" width="3000" height="500"></canvas>
+      </div>
+
+      <!-- change the size attributes of your canvas according to your game -->
+      <!-- further HTML elements, that should overlay your game. e.g. Main Screen, Game Over screen, .... -->
+      <!-- <div id="gameOverScreen"></div> -->
+      <!-- <div id="mainScreen"></div> -->
+    </div>
+
+    <div id="Lost-screen" style="display: none">
+      <!-- <div id="score"></div> -->
+      <span id="score"></span>
+      <div class="menu-item">
+        
+        <img
+          class="Screen"
+          src="./images/GameOver.png"
+          alt="GameOver" 
+        />
+        
+        
+      </div>
+    </div>
+
+    <script type="module" src="./scripts/modules/global.js"></script>
+    <script type="module" src="./scripts/modules/input.js"></script>
+    <script type="module" src="./scripts/modules/main.js"></script>
+  </body>
+</html>

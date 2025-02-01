@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+  /* align-items: center; */
+  height: 95vh;
+}
+
+#gameContainer {
+  width: 100%; /* change according to your game */
+  height: 80%; /* change according to your game */
+  margin-top: 5%;
+  position: relative;
+}
+
+#menu {
+  display: flex;
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/4kpapier.png");
+}
+
+.menu-item{
+  display: flex;
+}
+
+.Screen {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameContainer {
+  position: relative;
+}
+
+/* #canvas {
+  width: 1500px;
+  height:500px;
+} */
+
+#background {
+  width: auto;
+  height: auto;
+  /* z-index: -1; */
+  background-image: url("../images/background.jpg");
+}
+
+#score {
+  z-index: 4;
+  margin-top: 55vh;
+  font-size: 2em;
+}
+
+#Lost-screen {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/4kpapier.png");
+}
